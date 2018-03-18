@@ -12,10 +12,10 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
         String i = scanner.next();
         String j = scanner.next();
-        Double a = Double.parseDouble(i);
-        Double b = Double.parseDouble(j);
+        Float a = Float.parseFloat(i);
+        Float b = Float.parseFloat(j);
 
-        System.out.println(a+b);
+        System.out.printf("%.4f", a+b);
         scanner.close();
 
     }
